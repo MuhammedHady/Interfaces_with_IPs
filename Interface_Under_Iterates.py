@@ -1,7 +1,7 @@
 import glob, os
 from ciscoconfparse import CiscoConfParse
 
-directory = r"C:\Users\almasry.net\Desktop\Network Path\Network Automation\Python\Libraries\Ciscoconfparse\Go Through the files - Project"
+directory = r"Enter Files Directory Here"
 myfiles = []
 for filename in os.listdir(directory):
 	suffix=".conf"
